@@ -3,6 +3,7 @@ import random
 #model
 class Hero(pygame.sprite.Sprite):
     def __init__(self, name, x, y, img_file):
+        """"Initializes the sprite functionality and loads the image of the hero. Also sets attributes for the hero"""
         #initialize all the Sprite functionality
         pygame.sprite.Sprite.__init__(self)
 
@@ -22,6 +23,7 @@ class Hero(pygame.sprite.Sprite):
         self.health = 3
 
     #methods to make moving our hero easier
+        """"methods to make the hero move"""
     def move_up(self):
         self.rect.y -= self.speed
     def move_down(self):
@@ -32,6 +34,7 @@ class Hero(pygame.sprite.Sprite):
         self.rect.x += self.speed
 
     def fight(self, opponent):
+        """"tells us what happens when hero and enemy collide. they fight with a channce for hero to win or hero to lose"""
         if(random.randrange(3)):
             self.health -= 1
             print("attack failed. Remaining Health: ", self.health)

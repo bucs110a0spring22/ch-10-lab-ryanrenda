@@ -8,20 +8,20 @@
 Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+the progam has enemies that the hero can fight when he collides with them. the enemies move randomly and the hero can move with the arrows.
 #### Unique Feature
- < Describe the unique feature you added >
+I added a red ball that moves back and forth on the screen and kills the player when it collides with the player.
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: < 0 >
 
-Grace days remaining: < # >/5
+Grace days remaining: < 5 >/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+N/A
 
 ## REFERENCES:
- < List any outside resources used >
+N/A
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+N/A
